@@ -20,281 +20,188 @@
     src: url("https://fonts.googleapis.com/css2?family=Inter:wght@800&display=swap");
   }
 
-  @media (orientation: landscape) {
-    body {
-      background: linear-gradient(to left, rgba(230, 230, 230, 1) 30%, rgba(230, 230, 230, 0) 100%);
-    }
-
-    h1 {
-      font-family: 'Inter', sans-serif;
-      font-weight: 800;
-      font-size: 30px;
-      margin-left: 130px;
-      margin-top: 70px;
-      margin-bottom: 10px;
-      width: 198px;
-      height: 48px;
-      color: black;
-    }
-
-    h2 {
-      font-family: 'PublicPixel', sans-serif;
-      font-size: 20px;
-      margin-left: 200px;
-      margin-top: 5px;
-      width: 164px;
-      height: 38px;
-      color: black;
-    }
-
-    .container img[for="image1"] {
-      max-width: 326px;
-      max-height: 326px;
-      border-radius: 50%;
-      overflow: hidden;
-      margin-left: 160px;
-      margin-top: 25px;
-      margin-bottom: 20px;
-    }
-
-    .container img[for="image2"] {
-      max-width: 326px;
-      max-height: 326px;
-      border-radius: 50%;
-      overflow: hidden;
-      margin-left: 70px;
-      margin-top: 25px;
-      margin-bottom: 20px;
-    }
-
-    .container img[for="image3"] {
-      max-width: 326px;
-      max-height: 326px;
-      border-radius: 50%;
-      overflow: hidden;
-      margin-left: 70px;
-      margin-top: 25px;
-      margin-bottom: 20px;
-    }
-
-    .container img[for="back"] {
-      max-width: 286px;
-      max-height: 286px;
-      overflow: hidden;
-      margin-left: 70px;
-      margin-top: 25px;
-      margin-bottom: 20px;
-    }
-
-    h5 {
-      font-family: 'PublicPixel', sans-serif;
-      font-size: 10px;
-      margin-left: auto;
-      margin-right: auto;
-      margin-top: 37px;
-      color: black;
-      display: block;
-      width: fit-content;
-    }
-
-    .container {
-      display: flex;
-      margin-bottom: 0px;
-    }
-
-    .wisnu {
-      display: flex;
-    }
-
-    .wisnu img {
-      max-width: 48px;
-      max-height: 48px;
-      margin-left: 145px;
-      border-radius: 50%;
-      margin-top: 17px;
-    }
-    
-    .wisnu a {
-      font-size: 12px;
-      font-family: "PublicPixel", sans-serif;
-      margin-left: 10px;
-      color: black;
-    }
-
-    .wisnu p {
-      font-size: 11px;
-      font-family: "Inter", sans-serif;
-      margin-left: 10px;
-      color: black;
-    }
-
-    .meri {
-      display: flex;
-    }
-
-    .meri img {
-      max-width: 48px;
-      max-height: 48px;
-      margin-left: 105px;
-      border-radius: 50%;
-      margin-top: 17px;
-    }
-    
-    .meri a {
-      font-size: 12px;
-      font-family: "PublicPixel", sans-serif;
-      margin-left: 10px;
-      color: black;
-    }
-
-    .meri p {
-      font-size: 11px;
-      font-family: "Inter", sans-serif;
-      margin-left: 10px;
-      color: black;
-    }
-
-    .intan {
-      display: flex;
-    }
-
-    .intan img {
-      max-width: 48px;
-      max-height: 48px;
-      margin-left: 170px;
-      border-radius: 50%;
-      margin-top: 17px;
-    }
-    
-    .intan a {
-      font-size: 12px;
-      font-family: "PublicPixel", sans-serif;
-      margin-left: 10px;
-      color: black;
-    }
-
-    .intan p {
-      font-size: 11px;
-      font-family: "Inter", sans-serif;
-      margin-left: 10px;
-      color: black;
-    }
+  body {
+    background: linear-gradient(to left, rgba(230, 230, 230, 1) 30%, rgba(230, 230, 230, 0) 100%);
   }
 
-  @media (orientation: portrait) {
-    body {
-      /* Aturan CSS untuk orientasi potret */
-      background: linear-gradient(to left, rgba(230, 230, 230, 1) 30%, rgba(230, 230, 230, 0) 100%);
-    }
+  h1 {
+    font-family: 'Inter', sans-serif;
+    font-weight: 800;
+    font-size: 30px;
+    margin-left: 130px;
+    margin-top: 70px;
+    margin-bottom: 10px;
+    width: 198px;
+    height: 48px;
+    color: black;
+  }
 
-    h1 {
-      /* Aturan CSS untuk judul (h1) pada orientasi potret */
-      font-size: 30px;
-      margin-left: 130px;
-      margin-top: 70px;
-      margin-bottom: 10px;
-      width: 198px;
-      height: 48px;
-      color: black;
-    }
+  h2 {
+    font-family: 'PublicPixel', sans-serif;
+    font-size: 20px;
+    margin-left: 200px;
+    margin-top: 5px;
+    width: 164px;
+    height: 38px;
+    color: black;
+  }
 
-    h2 {
-      /* Aturan CSS untuk subjudul (h2) pada orientasi potret */
-      font-size: 20px;
-      margin-left: 200px;
-      margin-top: 5px;
-      width: 164px;
-      height: 38px;
-      color: black;
-    }
 
-    .image img[for="wisnu"],
-    .image img[for="meri"],
-    .image img[for="intan"],
-    .image img[for="back"] {
-      /* Aturan CSS untuk gambar pada orientasi potret */
-      max-width: 326px;
-      max-height: 326px;
-      border-radius: 50%;
-      overflow: hidden;
-      margin-left: 70px;
-      margin-top: 25px;
-      margin-bottom: 20px;
-    }
+  .image {
+    display: flex;
+  }
 
-    h5 {
-      /* Aturan CSS untuk subjudul kecil (h5) pada orientasi potret */
-      font-size: 10px;
-      margin-left: auto;
-      margin-right: auto;
-      margin-top: 37px;
-      color: black;
-      display: block;
-      width: fit-content;
-    }
+  .image img[for="wisnu"] {
+    max-width: 326px;
+    max-height: 326px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-left: 160px;
+    margin-top: 25px;
+    margin-bottom: 20px;
+  }
 
-    .container {
-      /* Aturan CSS untuk kontainer pada orientasi potret */
-      display: flex;
-      margin-bottom: 0px;
-    }
+  .image img[for="meri"] {
+    max-width: 326px;
+    max-height: 326px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-left: 70px;
+    margin-top: 25px;
+    margin-bottom: 20px;
+  }
 
-    .wisnu img {
-      /* Aturan CSS untuk gambar profil Wisnu pada orientasi potret */
-      max-width: 48px;
-      max-height: 48px;
-      margin-left: 145px;
-      border-radius: 50%;
-      margin-top: 17px;
-    }
+  .image img[for="intan"] {
+    max-width: 326px;
+    max-height: 326px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-left: 70px;
+    margin-top: 25px;
+    margin-bottom: 20px;
+  }
 
-    .meri img {
-      /* Aturan CSS untuk gambar profil Meri pada orientasi potret */
-      max-width: 48px;
-      max-height: 48px;
-      margin-left: 105px;
-      border-radius: 50%;
-      margin-top: 17px;
-    }
+  .image img[for="back"] {
+    max-width: 286px;
+    max-height: 286px;
+    overflow: hidden;
+    margin-left: 70px;
+    margin-top: 25px;
+    margin-bottom: 20px;
+  }
 
-    .intan img {
-      /* Aturan CSS untuk gambar profil Intan pada orientasi potret */
-      max-width: 48px;
-      max-height: 48px;
-      margin-left: 170px;
-      border-radius: 50%;
-      margin-top: 17px;
-    }
+  h5 {
+    font-family: 'PublicPixel', sans-serif;
+    font-size: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 37px;
+    color: black;
+    display: block;
+    width: fit-content;
+  }
 
-    .wisnu a,
-    .meri a,
-    .intan a {
-      /* Aturan CSS untuk tautan pada orientasi potret */
-      font-size: 12px;
-      font-family: "PublicPixel", sans-serif;
-      margin-left: 10px;
-      color: black;
-    }
+  .container {
+    display: flex;
+    margin-bottom: 0px;
+  }
 
-    .wisnu p,
-    .meri p,
-    .intan p {
-      /* Aturan CSS untuk paragraf pada orientasi potret */
-      font-size: 11px;
-      font-family: "Inter", sans-serif;
-      margin-left: 10px;
-      color: black;
-    }
+  .wisnu {
+    display: flex;
+  }
+
+  .wisnu img {
+    max-width: 48px;
+    max-height: 48px;
+    margin-left: 145px;
+    border-radius: 50%;
+    margin-top: 17px;
+  }
+  
+  .wisnu a {
+    font-size: 12px;
+    font-family: "PublicPixel", sans-serif;
+    margin-left: 10px;
+    color: black;
+  }
+
+  .wisnu p {
+    font-size: 11px;
+    font-family: "Inter", sans-serif;
+    margin-left: 10px;
+    color: black;
+  }
+
+  .meri {
+    display: flex;
+  }
+
+  .meri img {
+    max-width: 48px;
+    max-height: 48px;
+    margin-left: 105px;
+    border-radius: 50%;
+    margin-top: 17px;
+  }
+  
+  .meri a {
+    font-size: 12px;
+    font-family: "PublicPixel", sans-serif;
+    margin-left: 10px;
+    color: black;
+  }
+
+  .meri p {
+    font-size: 11px;
+    font-family: "Inter", sans-serif;
+    margin-left: 10px;
+    color: black;
+  }
+
+  .intan {
+    display: flex;
+  }
+
+  .intan img {
+    max-width: 48px;
+    max-height: 48px;
+    margin-left: 170px;
+    border-radius: 50%;
+    margin-top: 17px;
+  }
+  
+  .intan a {
+    font-size: 12px;
+    font-family: "PublicPixel", sans-serif;
+    margin-left: 10px;
+    color: black;
+  }
+
+  .intan p {
+    font-size: 11px;
+    font-family: "Inter", sans-serif;
+    margin-left: 10px;
+    color: black;
   }
 
 </style>
 <body>
   <h1>ABOUT US</h1>
   <h2>OUR TEAM</h2>
+
+  
+  <div class="image">
+    <img for="wisnu" src="https://intanurul04.alwaysdata.net/uas/1.png">
+    <img for="meri" src="https://intanurul04.alwaysdata.net/uas/2.png">
+    <img for="intan" src="https://intanurul04.alwaysdata.net/uas/3.png">
+    <a href="https://wisnudanuarta.alwaysdata.net/">
+      <img for="back" src="https://intanurul04.alwaysdata.net/uas/5.png">
+    </a>
+  </div>
     
+  
   <div class="container">
     <div class="wisnu">
-      <img for="image1" src="https://intanurul04.alwaysdata.net/uas/1.png">
       <img src="https://intanurul04.alwaysdata.net/uas/4.png">
       <h3 for="wisnu">
         <a>I Ketut Andika Wisnu D.</a>
@@ -303,7 +210,6 @@
     </div>
   
     <div class="meri">
-      <img for="image2" src="https://intanurul04.alwaysdata.net/uas/2.png">
       <img src="https://intanurul04.alwaysdata.net/uas/4.png">
       <h3 for="meri">
         <a>Meri Agustina</a>
@@ -312,17 +218,12 @@
     </div>
   
     <div class="intan">
-      <img for="image3" src="https://intanurul04.alwaysdata.net/uas/3.png">
       <img src="https://intanurul04.alwaysdata.net/uas/4.png">
       <h3 for="intan">
         <a>Intan Nurul Laily</a>
         <p>164221060</p>
       </h3>
     </div>
-
-    <a href="https://wisnudanuarta.alwaysdata.net/">
-      <img for="back" src="https://intanurul04.alwaysdata.net/uas/5.png">
-    </a>
   </div>
 
   <h5>Pembuatan aplikasi ini kami lakukan agar dapat berguna dikemudian hari</h5>
