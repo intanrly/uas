@@ -47,11 +47,11 @@
   }
 
 
-  .image {
+  .container1 {
     display: flex;
   }
 
-  .image img[for="wisnu"] {
+  .container1 img[for="wisnu"] {
     max-width: 326px;
     max-height: 326px;
     border-radius: 50%;
@@ -61,7 +61,7 @@
     margin-bottom: 20px;
   }
 
-  .image img[for="meri"] {
+  .container1 img[for="meri"] {
     max-width: 326px;
     max-height: 326px;
     border-radius: 50%;
@@ -71,7 +71,7 @@
     margin-bottom: 20px;
   }
 
-  .image img[for="intan"] {
+  .container1 img[for="intan"] {
     max-width: 326px;
     max-height: 326px;
     border-radius: 50%;
@@ -79,6 +79,28 @@
     margin-left: 70px;
     margin-top: 25px;
     margin-bottom: 20px;
+  }
+
+  .arrow-up {
+    width: 0;
+    height: 0;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-bottom: 5px solid black;
+    margin-left: 80px;
+  }
+
+  .arrow-up::before {
+    content: "";
+    position: absolute;
+    top: -5px;
+    left: -5px;
+    width: 0;
+    height: 0;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-bottom: 5px solid black;
+    transform: rotate(180deg);
   }
 
   h5 {
@@ -180,10 +202,13 @@
   <h1>ABOUT US</h1>
   <h2>OUR TEAM</h2>
 
-  <div class="image">
-    <img for="wisnu" src="https://intanurul04.alwaysdata.net/uas/1.png">
-    <img for="meri" src="https://intanurul04.alwaysdata.net/uas/2.png">
-    <img for="intan" src="https://intanurul04.alwaysdata.net/uas/3.png">
+  <div class="container1">
+    <div class="image">
+      <img for="wisnu" src="https://intanurul04.alwaysdata.net/uas/1.png">
+      <img for="meri" src="https://intanurul04.alwaysdata.net/uas/2.png">
+      <img for="intan" src="https://intanurul04.alwaysdata.net/uas/3.png">
+    </div>
+    <div class="arrow-up"></div>
   </div>
   
   <div class="container">
