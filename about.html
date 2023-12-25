@@ -20,73 +20,168 @@
     src: url("https://fonts.googleapis.com/css2?family=Inter:wght@800&display=swap");
   }
 
-  body {
-    background: linear-gradient(to left, rgba(230, 230, 230, 1) 30%, rgba(230, 230, 230, 0) 100%);
-  }
-
   @media (min-width: 769px) {
+    body {
+      background: linear-gradient(to left, rgba(230, 230, 230, 1) 30%, rgba(230, 230, 230, 0) 100%);
+    }
+
     h1 {
+      font-family: 'Inter', sans-serif;
+      font-weight: 800;
       font-size: 30px;
       margin-left: 130px;
       margin-top: 70px;
       margin-bottom: 10px;
       width: 198px;
       height: 48px;
-      text-align: left;
+      color: black;
     }
 
-    h2 {
+      h2 {
+      font-family: 'PublicPixel', sans-serif;
       font-size: 20px;
       margin-left: 200px;
       margin-top: 5px;
       width: 164px;
       height: 38px;
-      text-align: left;
+      color: black;
     }
 
     .image {
-      flex-direction: row;
-      justify-content: center;
+      display: flex;
     }
 
-    .image img[for="wisnu"],
-    .image img[for="meri"],
-    .image img[for="intan"],
-    .image img[for="back"] {
+    .image img[for="wisnu"] {
       max-width: 326px;
       max-height: 326px;
+      border-radius: 50%;
+      overflow: hidden;
+      margin-left: 160px;
+      margin-top: 25px;
+      margin-bottom: 20px;
+    }
+
+    .image img[for="meri"] {
+      max-width: 326px;
+      max-height: 326px;
+      border-radius: 50%;
+      overflow: hidden;
       margin-left: 70px;
       margin-top: 25px;
       margin-bottom: 20px;
     }
 
+    .image img[for="intan"] {
+      max-width: 326px;
+      max-height: 326px;
+      border-radius: 50%;
+      overflow: hidden;
+      margin-left: 70px;
+      margin-top: 25px;
+      margin-bottom: 20px;
+    }
+
+    .image img[for="back"] {
+      max-width: 286px;
+      max-height: 286px;
+      overflow: hidden;
+      margin-left: 70px;
+      margin-top: 25px;
+      margin-bottom: 20px;
+    }
+
+    h5 {
+      font-family: 'PublicPixel', sans-serif;
+      font-size: 10px;
+      margin-left: auto;
+      margin-right: auto;
+      margin-top: 37px;
+      color: black;
+      display: block;
+      width: fit-content;
+    }
+
     .container {
-      flex-direction: row;
-      justify-content: center;
+      display: flex;
       margin-bottom: 0px;
     }
 
-    .wisnu,
-    .meri,
-    .intan {
-      flex-direction: column;
-      align-items: center;
+    .wisnu {
+      display: flex;
     }
 
-    .wisnu img,
-    .meri img,
+    .wisnu img {
+      max-width: 48px;
+      max-height: 48px;
+      margin-left: 145px;
+      border-radius: 50%;
+      margin-top: 17px;
+    }
+    
+    .wisnu a {
+      font-size: 12px;
+      font-family: "PublicPixel", sans-serif;
+      margin-left: 10px;
+      color: black;
+    }
+
+    .wisnu p {
+      font-size: 11px;
+      font-family: "Inter", sans-serif;
+      margin-left: 10px;
+      color: black;
+    }
+
+    .meri {
+      display: flex;
+    }
+
+    .meri img {
+      max-width: 48px;
+      max-height: 48px;
+      margin-left: 105px;
+      border-radius: 50%;
+      margin-top: 17px;
+    }
+    
+    .meri a {
+      font-size: 12px;
+      font-family: "PublicPixel", sans-serif;
+      margin-left: 10px;
+      color: black;
+    }
+
+    .meri p {
+      font-size: 11px;
+      font-family: "Inter", sans-serif;
+      margin-left: 10px;
+      color: black;
+    }
+
+    .intan {
+      display: flex;
+    }
+
     .intan img {
       max-width: 48px;
       max-height: 48px;
-      margin-left: 0;
+      margin-left: 170px;
+      border-radius: 50%;
       margin-top: 17px;
     }
-
-    .wisnu h3,
-    .meri h3,
-    .intan h3 {
+    
+    .intan a {
+      font-size: 12px;
+      font-family: "PublicPixel", sans-serif;
       margin-left: 10px;
-      text-align: left;
+      color: black;
+    }
+
+    .intan p {
+      font-size: 11px;
+      font-family: "Inter", sans-serif;
+      margin-left: 10px;
+      color: black;
     }
   }
 
