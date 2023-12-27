@@ -21,7 +21,7 @@
     src: url("https://fonts.googleapis.com/css2?family=Inter:wght@800&display=swap");
   }
 
-  @media (orientation: rotate) {
+  @media only screen and (max-width: 768px) {
     body {
       background: linear-gradient(to left, rgba(230, 230, 230, 1) 30%, rgba(230, 230, 230, 0) 100%);
     }
@@ -41,7 +41,7 @@
     .image img[for="wisnu", "meri", "intan"] {
       max-width: 100px;
       max-height: 100px;
-      justify-content: center;
+      display: center;
     }
 
     .image img[for="back"] {
